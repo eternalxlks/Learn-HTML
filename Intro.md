@@ -21,4 +21,24 @@ An HTML document starts with a specific structure that ensures it is recognized 
 <head>: Contains metadata about the document, such as the title, styles, and scripts.
 <title>: Sets the title of the page (shown on the browser tab).
 <body>: Contains the main content of the page, visible to users.
+```
+### Common HTML Tags
+#### 1. Headings
+```
+Use <h1> to <h6> tags for headings, where <h1> is the largest and <h6> is the smallest.
+```
+##### Example:
+```
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+```
+#### 2. Paragraphs
+```
+Use <p> for paragraphs.
+```
+##### Example:
+```
+<p>This is a paragraph.</p>
+```
+
 
