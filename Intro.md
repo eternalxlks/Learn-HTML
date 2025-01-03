@@ -34,11 +34,77 @@ Use <h1> to <h6> tags for headings, where <h1> is the largest and <h6> is the sm
 ```
 #### 2. Paragraphs
 ```
-Use <p> for paragraphs.
+Use <p> for paragraphs. With this, the text will always remain the same size.
 ```
 ##### Example:
 ```
 <p>This is a paragraph.</p>
+```
+#### 3. Links
+```
+Use <a> to create hyperlinks.
+```
+##### Example:
+```
+<a href="https://www.example.com">Visit Example</a>
+```
+#### 4. Images
+```
+Use <img> to insert images. The src attribute specifies the image source, and alt provides alternative text.
+```
+##### Example:
+```
+<img src="image.jpg" alt="A descriptive text">
+```
+#### 5. Lists
+```
+Ordered lists use <ol> and <li>.
+```
+##### Example:
+```
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+</ol>
+```
+#### Lists part 2.
+```
+Unordered lists use <ul> and <li>.
+```
+##### Example:
+```
+<ul>
+    <li>Item one</li>
+    <li>Item two</li>
+</ul>
+```
+#### 6. Tables.
+```
+Use <table>, <tr>, <td>, and <th> for creating tables.
+```
+##### Examples:
+```
+<table>
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+    </tr>
+</table>
+```
+### HTML Attributes
+Attributes provide additional information about an element and are always written inside the opening tag. For example:
+```
+<a href="https://www.example.com" target="_blank">Open in new tab</a>
+href: Specifies the link's destination.
+target="_blank": Opens the link in a new tab.
+```
+### Closing Tags
+```
+Most HTML elements have an opening tag (e.g., <p>) and a closing tag (e.g., </p>). However, some elements, like <img> and <br>, are self-closing.
 ```
 
 
