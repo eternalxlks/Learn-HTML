@@ -14,4 +14,18 @@ An HTML document starts with a specific structure that ensures it is recognized 
 </body>
 </html>
 ```
+#### Breakdown of the Code:
+```
+<!DOCTYPE html>
+``` : Declares the document as HTML5.
+```
+<html>
+```
+    : The root element that wraps all the content on the page.
+```
+<head>
+```
+    : Contains metadata about the document, such as the title, styles, and scripts.
+<title>: Sets the title of the page (shown on the browser tab).
+<body>: Contains the main content of the page, visible to users.
 
